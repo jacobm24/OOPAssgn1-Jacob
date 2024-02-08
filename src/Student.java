@@ -9,8 +9,5 @@ public class Student {
         this.a2_mark = a2_mark;
     }
 
-    public void print_average_grade() {
-        int mark_total = a1_mark + a2_mark;
-        int average_mark = mark_total / 2;
-    }
+
 }

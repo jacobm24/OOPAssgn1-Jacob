@@ -5,4 +5,9 @@ public class Course {
         this.course_name = course_name;
     }
 
+    public void get_course_avg() {
+        int mark_total = a1_mark + a2_mark;
+        int average_mark = mark_total / 2;
+    }
+
 }
